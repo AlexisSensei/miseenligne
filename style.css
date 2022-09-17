@@ -1,0 +1,34 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+.presentation {
+    display: flex;
+    gap: 60px;
+    justify-content: center;
+    align-items:center;
+    margin-bottom: 80px;
+}
+
+.presentation img {
+    width: 35%;
+}
+
+.presentation div {
+    width: 25%;
+}
+
+.temoignages {
+    height: 600px;
+    background-image: url('https://picsum.photos/id/1025/1920/1080');
+    background-size: cover;
+    padding: 50px;
+    color: aliceblue;
+}
+
+img {
+    width: 100%;
+}
